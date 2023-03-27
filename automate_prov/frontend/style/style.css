@@ -15,4 +15,17 @@
   #ramais {
     margin-top: 20px;
   }
-  
+
+#result {
+  border: 1px solid;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.info-div {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+

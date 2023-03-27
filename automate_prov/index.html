@@ -7,11 +7,7 @@
     <title>N2P Auto Provisioning</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <!-- Bootstrap JS and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-    <script src="automate_prov/backend/index.js"></script>
+    <link rel="stylesheet" href="frontend/style/style.css">
 
 </head>
 <body>
@@ -25,11 +21,16 @@
             <div class="col-md-4">
                 <button id="search-button" class="btn btn-primary mt-4">Search</button>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4" id="input-file">
                 <label for="file-input">Upload file:</label>
                 <input id="file-input" type="file" class="form-control-file">
             </div>
     </div>
-    <div class="result mb-4"></div>
+    <div id="result"></div>
+
 </body>
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="backend/js/index.js"></script>
 </html>
