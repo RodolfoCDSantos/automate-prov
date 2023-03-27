@@ -1,31 +1,30 @@
 /* align the input and button in a row */
 .row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  /* add space between the input and button */
-  #search-form input {
-    margin-right: 10px;
-  }
-  
-  /* add some margin to the top of the information divs */
-  #ramais {
-    margin-top: 20px;
-  }
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* add space between the input and button */
+#search-form input {
+  margin-right: 10px;
+}
+
+/* add some margin to the top of the information divs */
+#ramais {
+  margin-top: 20px;
+}
 
 #result {
-  border: 1px solid;
-  margin-bottom: 5px;
-  padding: 10px;
+border: 1px solid;
+margin-bottom: 5px;
+padding: 10px;
 }
 
 .info-div {
-    border: 1px solid;
-    border-radius: 10px;
-    margin-bottom: 5px;
-    padding: 10px;
-  }
-
+  border: 1px solid;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  padding: 10px;
+}
