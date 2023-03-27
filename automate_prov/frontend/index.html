@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N2P Auto Provisioning</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+    <script src="automate_prov/backend/index.js"></script>
+
+</head>
+<body>
+    <div class="container my-5">
+        <h1 class="text-center mb-4">N2P Auto Provisioning</h1>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <label for="search-input">Enter search query:</label>
+                <input id="search-input" type="text" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <button id="search-button" class="btn btn-primary mt-4">Search</button>
+            </div>
+            <div class="col-md-5">
+                <label for="file-input">Upload file:</label>
+                <input id="file-input" type="file" class="form-control-file">
+            </div>
+    </div>
+    <div class="result mb-4"></div>
+</body>
+</html>
