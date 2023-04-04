@@ -2,7 +2,7 @@
 name = "automate-prov"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Fabio Souza <fabio.souza@net2phone.com>"]
 readme = "README.md"
 packages = [{include = "automate_prov"}]
 
@@ -11,6 +11,11 @@ python = "^3.10"
 streamlit = "^1.20.0"
 fastapi = "^0.95.0"
 uvicorn = "^0.21.1"
+pyzbar = "^0.1.9"
+opencv-python = "^4.7.0.72"
+typer = "^0.7.0"
+rich = "^13.3.3"
+pyproject-toml = "^0.0.10"
 
 
 [build-system]
